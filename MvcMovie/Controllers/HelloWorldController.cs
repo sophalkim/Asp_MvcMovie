@@ -9,9 +9,9 @@ namespace MvcMovie.Controllers
     public class HelloWorldController : Controller
     {
         // GET: HelloWorld
-        public string Index()
+        public ActionResult Index()
         {
-            return "This site belongs to Mickey the cat.";
+            return View();
         }
 
         // GET: /HellowWorld/Welcome/
